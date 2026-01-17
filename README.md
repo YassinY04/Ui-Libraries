@@ -24,22 +24,14 @@ The goal is not quantity — but **well-designed, readable and reusable UI code*
 
 ---
 
-_None_
-
----
-
-## 🧪 Work in Progress
-
----
-
 ### Unnamed  
-_Last update: 2026-01-16_
+_Last update: 2026-01-17_
 
-**Status:** Active development  
-API and behavior may change.
+**Status:** Early Release  
+More features will be added soon.
 
 <p align="center">
-  <img src="assets/unnamed_ui.gif" width="820">
+  <img src="assets/unnamed.gif" width="820">
 </p>
 
 A lightweight UI with fast creation times and reduced visual noise.  
@@ -48,7 +40,7 @@ Inspired by older cheat-style layouts — fully reimplemented.
 **Example**
 ```lua
 local UILibrary = loadstring(game:HttpGet(
-    "https://raw.githubusercontent.com/USERNAME/REPO/main/VectorUI/init.lua"
+    "https://raw.githubusercontent.com/ToldByNun/Ui-Libraries/refs/heads/main/unnamed.lua"
 ))()
 
 local window = UILibrary:CreateWindow("UI NAME", "Version") -- Create a new window
@@ -98,14 +90,20 @@ local dropdown = sectionOne:CreateDropdown(
 
 ---
 
+## 🧪 Work in Progress
+
+---
+
+_None_
+
+---
+
 ## 🗂 Repository Structure
 
 ```text
 /
-├── Uis/
-│   └── unnamed.lua
-└── assets/
-    ├── unnamed_gif.gif
+├── unnamed.lua
+└── README.md
 ```
 
 ---
